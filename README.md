@@ -65,7 +65,7 @@ Examine the data analysis, text, and comments that document my findings.
 
 ## Evaluation Report
 
-In the Resources folder, reference the Module_14_Challenge_1.png file.
+In the Resources folder, reference the Module_14_Challenge_1, Module_14_Challenge_2, and Module_14_Challenge_3 .png files.
 
 ---
 
