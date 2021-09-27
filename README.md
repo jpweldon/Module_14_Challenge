@@ -65,11 +65,15 @@ Examine the data analysis, text, and comments that document my findings.
 
 ## Evaluation Report
 
-In the Resources folder, reference the SVM_Model_Returns_Plot, SVM_Classification_Report, LogisticRegression_Model_Returns_Plot, and LogisticRegression_Classification_Report .png files. This information can also be found in the Evaluation Report section of the machine_learning_trading_bot.ipynb file.
+In the Resources folder, reference the SVM_Model_Returns_Plot, SVM_Classification_Report, LogisticRegression_Model_Returns_Plot, LogisticRegression_Classification_Report, SVM_Model_Sliced_Returns_Plot, SVM_Sliced_Classification_Report, SVM_Model_50DayShortWindow_Returns_Plot, and SVM_Model_50DayShortWindow_Classification_Report .png files. This information can also be found in the Evaluation Report section of the machine_learning_trading_bot, tune_baseline_trading_algorithm_slice_dates, and tune_baseline_trading_algorithm_adjust_windows .ipynb files.
 
 From the classification reports, it is shown that the svm model has a higher accuracy of 0.55 compared to the logistic regression model accuracy of 0.52. From the plots of the actual returns versus the strategy returns, we can see that the SVM model's strategy returns cross over the actual returns in 2018 and then stay above the actual returns through 2020. We also see in the plots that the Logistic Regression model's strategy returns cross over the actual returns in 2018 but then cross back under the actual returns in 2020.
 
-Based on the classification reports and the plots of the actual returns versus the strategy returns, the SVM model is the better model between the two. 
+Based on the classification reports and the plots of the actual returns versus the strategy returns, the SVM model is the better model between the two.
+
+I subsequently changed the training window to a different period, from "2019-03-20 09:45:00" to "2019-06-20 09:45:00." This change resulted in a plot that appears to show less of a spread between the strategy returns and the actual returns in 2020. The original training window appears to be the better model.
+
+I subsequently changed the short window to 50 days, and changed the training window back to that of the original model. This change resulted in a plot that appears to show the strategy returns perfectly aligning with the actual returns, versus the strategy returns being greater than the actual returns in 2020 in our original model. In addition, the updated model has "0.00" for precision and recall which is concerning. The original model is still the better model.
 
 ---
 
