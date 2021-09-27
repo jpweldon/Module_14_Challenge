@@ -67,7 +67,9 @@ Examine the data analysis, text, and comments that document my findings.
 
 In the Resources folder, reference the SVM_Model_Returns_Plot, SVM_Classification_Report, LogisticRegression_Model_Returns_Plot, and LogisticRegression_Classification_Report .png files. This information can also be found in the Evaluation Report section of the machine_learning_trading_bot.ipynb file.
 
-The svm model has a higher accuracy of 0.55 compared to the logistic regression model accuracy of 0.52. 
+From the classification reports, it is shown that the svm model has a higher accuracy of 0.55 compared to the logistic regression model accuracy of 0.52. From the plots of the actual returns versus the strategy returns, we can see that the SVM model's strategy returns cross over the actual returns in 2018 and then stay above the actual returns through 2020. We also see in the plots that the Logistic Regression model's strategy returns cross over the actual returns in 2018 but then cross back under the actual returns in 2020.
+
+Based on the classification reports and the plots of the actual returns versus the strategy returns, the SVM model is the better model between the two. 
 
 ---
 
