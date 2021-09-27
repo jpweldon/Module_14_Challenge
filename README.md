@@ -30,6 +30,8 @@ This project leverages python 3.7 with the following modules:
 
 * [pathlib](https://docs.python.org/3/library/pathlib.html) - For representing the file system path to a csv.
 
+* [sklearn](https://scikit-learn.org/stable/user_guide.html#) - For machine learning.
+
 * [matplotlib](https://matplotlib.org/stable/users/index.html) - For embedding plots in the application.
 
 ---
@@ -41,6 +43,7 @@ Before running the application first install the following dependencies:
 ```python
   pip install pandas
   pip install hvplot
+  pip install -U scikit-learn
   pip install mkdocs
 ```
 
