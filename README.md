@@ -65,7 +65,9 @@ Examine the data analysis, text, and comments that document my findings.
 
 ## Evaluation Report
 
-In the Resources folder, reference the Module_14_Challenge_1, Module_14_Challenge_2, and Module_14_Challenge_3 .png files.
+In the Resources folder, reference the SVM_Model_Returns_Plot, SVM_Classification_Report, LogisticRegression_Model_Returns_Plot, and LogisticRegression_Classification_Report .png files. This information can also be found in the Evaluation Report section of the machine_learning_trading_bot.ipynb file.
+
+The svm model has a higher accuracy of 0.55 compared to the logistic regression model accuracy of 0.52. 
 
 ---
 
