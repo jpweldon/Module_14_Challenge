@@ -61,11 +61,15 @@ Run the machine_learning_trading_bot.ipynb program.
 
 Examine the data analysis, text, and comments that document my findings.
 
+Run the tune_baseline_trading_algorithm_slice_dates.ipynb and tune_baseline_trading_algorithm_adjust_windows.ipynb programs.
+
+Examine the data analysis, text, and comments that document my findings.
+
+In the Resources folder, reference the SVM_Model_Returns_Plot, SVM_Classification_Report, LogisticRegression_Model_Returns_Plot, LogisticRegression_Classification_Report, SVM_Model_Sliced_Returns_Plot, SVM_Sliced_Classification_Report, SVM_Model_50DayShortWindow_Returns_Plot, and SVM_Model_50DayShortWindow_Classification_Report .png files. This information can also be found in the Evaluation Report section of the machine_learning_trading_bot, tune_baseline_trading_algorithm_slice_dates, and tune_baseline_trading_algorithm_adjust_windows .ipynb files.
+
 ---
 
 ## Evaluation Report
-
-In the Resources folder, reference the SVM_Model_Returns_Plot, SVM_Classification_Report, LogisticRegression_Model_Returns_Plot, LogisticRegression_Classification_Report, SVM_Model_Sliced_Returns_Plot, SVM_Sliced_Classification_Report, SVM_Model_50DayShortWindow_Returns_Plot, and SVM_Model_50DayShortWindow_Classification_Report .png files. This information can also be found in the Evaluation Report section of the machine_learning_trading_bot, tune_baseline_trading_algorithm_slice_dates, and tune_baseline_trading_algorithm_adjust_windows .ipynb files.
 
 From the classification reports, it is shown that the svm model has a higher accuracy of 0.55 compared to the logistic regression model accuracy of 0.52. From the plots of the actual returns versus the strategy returns, we can see that the SVM model's strategy returns cross over the actual returns in 2018 and then stay above the actual returns through 2020. We also see in the plots that the Logistic Regression model's strategy returns cross over the actual returns in 2018 but then cross back under the actual returns in 2020.
 
